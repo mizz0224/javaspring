@@ -27,9 +27,10 @@ public class PostController {
     //HTTP 프로토콜에 있는 Method를 활용한 아키텍쳐 스타일
     //HTTP Method 를 통해서 Resource를 처리한다
     //CRUD 를 통한 Resource 조작을 할떄 사용한다
-    //  HTTP Metod     |         동작          | URL 형태
-    //     GET         |  조회(SELECT*READ)    | /user/{id}
-    //     POST        |  생성(CREATE)         | /user
-    //     PUT/PATCH   |  수정(UPDATE) *CREATE | /user
-    //     DELETE      |  삭제(DELETE)         | /user/{1}
+    //  HTTP Metod     |         동작          |      URL 형태
+    //     GET         |  조회(SELECT*READ)    |  /user/{id}
+    //     POST        |  생성(CREATE)         |  /user
+    //     PUT/PATCH   |  수정(UPDATE) *CREATE |  /user
+    //     DELETE      |  삭제(DELETE)         |  /user/{1}
+
 }

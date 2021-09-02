@@ -30,9 +30,10 @@ public class GetController {
     //위방식은 단순 String 반환방식 abcdstudy@gmail.com10의 형태로 반환된다
     @GetMapping("/getMultiParameter")
     public SearchParam getMultiParameter(SearchParam searchParam){
-        System.out.println(searchParam.getAccount());
-        System.out.println(searchParam.getEmail());
-        System.out.println(searchParam.getPage());
+//        System.out.println(searchParam.getAccount());
+//        System.out.println(searchParam.getEmail());
+//        System.out.println(searchParam.getPage());
+
         return searchParam;
     }
     //위방식은 json 반환방식 {"account":"abcd","email":"study@gmail.com","page":10}의 형태로 반환됨
