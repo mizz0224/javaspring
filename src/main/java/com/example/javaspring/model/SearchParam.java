@@ -2,8 +2,11 @@ package com.example.javaspring.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Data//아래와 같이 get set 메소드 생성
 @AllArgsConstructor//한번에 모든 인자를 정의해줄수있는 클래스 생성자(SearchParam)를 만들어줌!
+@NoArgsConstructor
 public class SearchParam {
 
 

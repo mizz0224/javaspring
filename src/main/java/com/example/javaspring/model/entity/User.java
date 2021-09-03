@@ -15,7 +15,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    //@Column(name = "account")//컬럼의 이름과 테이블의 이름을 매칭
+
     private String account;
 
     private String email;
@@ -29,4 +29,5 @@ public class User {
     private LocalDateTime updatedAt;
 
     private String updatedBy;
+
 }
